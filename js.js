@@ -12,6 +12,7 @@ document.getElementById('taskForm').addEventListener('submit', function(event) {
             li.classList.add('task-due');
         }
 
+
         taskList.appendChild(li);
         document.getElementById('taskTitle').value = '';
         document.getElementById('taskPriority').value = '';

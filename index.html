@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="module" src="js.js"></script>
+    <link rel="stylesheet" href="csss.css">
+</head>
+<body>
+
+
+
+<div>úkol</div>
+<div class="form">
+
+<form id="taskForm">
+    <input type="text" id="taskTitle" placeholder="Titulek úkolu" maxlength="100">
+    <select id="taskPriority">
+        <option value="low">Nízká</option>
+        <option value="medium">Střední</option>
+        <option value="high">Vysoká</option>
+    </select>
+    <input type="number" id="taskMonth" placeholder="Měsíc splnění" min="1" max="12">
+    <button type="submit">Uložit</button>
+</form></div>
+<p id="taskFeedback"></p>
+<ul id="taskList"></ul>
+</body>
+</html>

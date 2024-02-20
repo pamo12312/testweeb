@@ -1,0 +1,26 @@
+#taskForm{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+    padding: 20px;
+    width: 300px;
+    flex-direction: column;
+}
+#taskList{
+    background-color: grey;
+    border-radius: 20px;
+    width: 200px;
+    list-style: none;
+margin: 20px;
+    padding: 20px;
+}
+.o{
+    display: flex;
+    flex-direction: column;
+}
